@@ -1,0 +1,5 @@
+server:
+  port: 7901
+spring:
+  application:
+    name: microservice-consumer-movie

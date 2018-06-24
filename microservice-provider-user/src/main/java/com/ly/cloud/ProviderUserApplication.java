@@ -1,12 +1,12 @@
-package com.ly.cloud.microserviceprovideruser;
+package com.ly.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroserviceProviderUserApplication {
+public class ProviderUserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroserviceProviderUserApplication.class, args);
+		SpringApplication.run(ProviderUserApplication.class, args);
 	}
 }
