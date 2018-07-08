@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class ConsumerMovieApplication {
 	
 	@Bean
-	public RestTemplate restTemplate(){
+	public RestTemplate rt(){
 		return new RestTemplate();
 	}
 
