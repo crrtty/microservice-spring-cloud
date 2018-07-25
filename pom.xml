@@ -7,6 +7,7 @@
 	<packaging>pom</packaging>
 	<name>microservice-spring-cloud</name>
 	
+	
 	<modules>
 		<module>microservice-provider-user</module>		
 		<module>microservice-consumer-movie</module>
