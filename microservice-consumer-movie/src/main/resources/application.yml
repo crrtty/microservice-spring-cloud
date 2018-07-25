@@ -1,5 +1,15 @@
 server:
-  port: 7901
+  port: 8900
 spring:
   application:
     name: microservice-consumer-movie
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@eureka1:8761/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+  
